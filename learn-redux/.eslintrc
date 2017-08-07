@@ -22,6 +22,9 @@
   },
   "plugins": [
     "babel",
-    "react"
+    "react",
+    "import",
+    "jsx-a11y",j
+    "prettier"
   ]
 }
