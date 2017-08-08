@@ -5,6 +5,7 @@
   },
   "env": {
     "browser": true,
+    "es6": true,
     "node": true
   },
   "parser": "babel-eslint",
@@ -20,11 +21,12 @@
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2
   },
+  "extends": ["prettier", "prettier/react"],
   "plugins": [
     "babel",
     "react",
     "import",
-    "jsx-a11y",j
+    "jsx-a11y",
     "prettier"
   ]
 }
